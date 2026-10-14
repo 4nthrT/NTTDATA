@@ -1,0 +1,11 @@
+### Listar todos los cursos
+GET http://localhost:8080/api/cursos
+
+### Filtrar por nivel (parametro opcional in: query)
+GET http://localhost:8080/api/cursos?nivel=BASICO
+
+### Obtener un curso por id
+GET http://localhost:8080/api/cursos/1
+
+### Curso que no existe -> 404
+GET http://localhost:8080/api/cursos/99

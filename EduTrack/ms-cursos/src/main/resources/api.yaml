@@ -1,0 +1,87 @@
+openapi: "3.0.3"
+
+info:
+  title: API de Cursos - EduTrack
+  version: 1.0.0
+  description: >
+    Contrato del catalogo de cursos de EduTrack.
+    Este archivo es la fuente de verdad: las interfaces y los modelos Java
+    se generan a partir de el. No se escribe el controlador a mano.
+
+servers:
+  - url: http://localhost:8080
+
+tags:
+  - name: cursos
+    description: Catalogo de cursos
+
+paths:
+  /api/cursos:
+    get:
+      summary: Lista los cursos, con filtro opcional por nivel
+      operationId: listarCursos
+      tags: [cursos]
+      parameters:
+        - name: nivel
+          in: query
+          required: false
+          schema:
+            type: string
+            enum: [BASICO, INTERMEDIO, AVANZADO]
+          description: Filtra el catalogo por nivel. Si se omite, devuelve todos.
+      responses:
+        "200":
+          description: Lista de cursos
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Curso"
+
+  /api/cursos/{id}:
+    get:
+      summary: Obtiene un curso por su id
+      operationId: obtenerCurso
+      tags: [cursos]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int64
+          description: Identificador del curso
+      responses:
+        "200":
+          description: Curso encontrado
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Curso"
+        "404":
+          description: El curso no existe
+
+components:
+  schemas:
+    Curso:
+      type: object
+      required:
+        - id
+        - titulo
+        - nivel
+      properties:
+        id:
+          type: integer
+          format: int64
+          example: 1
+        titulo:
+          type: string
+          example: Introduccion a Java
+        nivel:
+          type: string
+          enum: [BASICO, INTERMEDIO, AVANZADO]
+          example: BASICO
+        horas:
+          type: integer
+          example: 20

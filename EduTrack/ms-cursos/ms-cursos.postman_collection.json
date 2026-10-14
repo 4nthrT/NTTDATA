@@ -1,0 +1,92 @@
+{
+  "info": {
+    "name": "EduTrack - ms-cursos (caso IA Open API)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Listar todos los cursos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/cursos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "cursos"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Filtrar por nivel BASICO",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/cursos?nivel=BASICO",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "cursos"
+          ],
+          "query": [
+            {
+              "key": "nivel",
+              "value": "BASICO"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Obtener el curso 1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/cursos/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "cursos",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Curso inexistente (404)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/cursos/99",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "cursos",
+            "99"
+          ]
+        }
+      }
+    }
+  ]
+}

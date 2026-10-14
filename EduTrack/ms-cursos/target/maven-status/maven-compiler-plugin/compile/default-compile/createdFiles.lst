@@ -1,0 +1,10 @@
+com\nttdata\ms_cursos\api\CursosApiController.class
+com\nttdata\ms_cursos\model\Curso$NivelEnum.class
+com\nttdata\ms_cursos\model\Curso.class
+com\nttdata\ms_cursos\MsCursosApplication.class
+com\nttdata\ms_cursos\api\CursosApi$1.class
+com\nttdata\ms_cursos\api\CursosApiController$1.class
+com\nttdata\ms_cursos\CursosApiDelegateImpl.class
+com\nttdata\ms_cursos\api\ApiUtil.class
+com\nttdata\ms_cursos\api\CursosApiDelegate.class
+com\nttdata\ms_cursos\api\CursosApi.class
