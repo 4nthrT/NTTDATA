@@ -1,0 +1,12 @@
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\dto\ErrorResponse.java
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\dto\ExchangeRateResponse.java
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\entity\ExchangeRateQuery.java
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\exception\DailyLimitExceededException.java
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\exception\DailyLimitExceptionMapper.java
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\GreetingResource.java
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\MyEntity.java
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\proxy\ExchangeRateApiClient.java
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\proxy\ExchangeRateProxy.java
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\repository\ExchangeRateRepository.java
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\resource\ExchangeRateResource.java
+C:\Users\ADMIN\Downloads\Edge Descargas\Sesion 10\ms-exchange-rate\src\main\java\pe\com\bancoabc\service\ExchangeRateService.java

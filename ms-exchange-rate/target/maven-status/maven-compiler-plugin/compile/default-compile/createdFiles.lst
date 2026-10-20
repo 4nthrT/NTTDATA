@@ -1,0 +1,12 @@
+pe\com\bancoabc\exchangerate\repository\ExchangeRateRepository.class
+pe\com\bancoabc\MyEntity.class
+pe\com\bancoabc\GreetingResource.class
+pe\com\bancoabc\exchangerate\service\ExchangeRateService.class
+pe\com\bancoabc\exchangerate\dto\ExchangeRateResponse.class
+pe\com\bancoabc\exchangerate\exception\DailyLimitExceptionMapper.class
+pe\com\bancoabc\exchangerate\resource\ExchangeRateResource.class
+pe\com\bancoabc\exchangerate\exception\DailyLimitExceededException.class
+pe\com\bancoabc\exchangerate\entity\ExchangeRateQuery.class
+pe\com\bancoabc\exchangerate\proxy\ExchangeRateProxy.class
+pe\com\bancoabc\exchangerate\dto\ErrorResponse.class
+pe\com\bancoabc\exchangerate\proxy\ExchangeRateApiClient.class
